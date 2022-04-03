@@ -20,6 +20,6 @@
   <p><%= f.submit "Update Book", method: :patch %></p>
 <% end %>
 
-<p><span><%= link_to "Show",book_path(@book.id) %></span>|<span><a href="/books/">Back</span></p>
+<p><span><%= link_to "Show",book_path(@book.id) %></span>|<span><%= link_to "Back",books_path %></span></p>
 
 
