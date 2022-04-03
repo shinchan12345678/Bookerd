@@ -1,0 +1,10 @@
+<p><%= notice %></p>
+
+<div>
+  <p><span>Title:</span><%= @book.title %></p>
+  <p><span>Body:</span><%= @book.body %></p>
+</div>
+<div>
+  <p><span><%= link_to "Edit","/books/#{@book.id}/edit" %></span>|<span><a href="/books/">Back</a></span></p>
+</div>
+
